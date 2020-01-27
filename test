@@ -16,6 +16,6 @@ def line(array)
     
 def take_a_number(array, name)
   array << name
-  puts array.index(name)
+  puts array.index(name)+1
   end
   
