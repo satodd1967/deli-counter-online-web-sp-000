@@ -12,5 +12,6 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  
+  array << name
+  puts "Welcom, #{name} you are number #{array.index(name)+1} in line."
 end
