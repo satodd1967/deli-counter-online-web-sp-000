@@ -1,4 +1,7 @@
-# Write your code here.
+deli1 = []
+deli2 = ["Logan", "Avi", "Spencer"]
+deli3 = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
+
 def line(array)
  if array.size == 0
   puts "The line is currently empty."
@@ -10,3 +13,11 @@ def line(array)
     puts "The line is currently: #{new.join(" ")}"
     end
     end
+    
+
+
+
+current_line << deli2.each do |name|
+  puts "#{name}"
+  end
+  
